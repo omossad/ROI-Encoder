@@ -1,17 +1,17 @@
 #!/bin/bash
-games=(ga1 ga2 ga3 ga4 ga5)
+games=(ga12)
 qp=(22 27 32 37)
 length=20
-width=(640 640 800 1280 1280)
-height=(480 480 600 720 720)
+width=(1920)
+height=(1080)
 idx=0
-for j in "${games[@]}"; do echo $j;	
+for j in "${games[@]}"; do echo $j;
 	w=${width[idx]}
 	h=${height[idx]}
 	echo $w $h
-	for b in "${qp[@]}"; do echo $b; 
+	for b in "${qp[@]}"; do echo $b;
 	   size=$(stat --printf="%s" "$j/QP/enc_$b.mp4")
-	   bitrate=$(echo "($size * 8/$length)"|bc -l | xargs printf "%.2f\n")		   
+	   bitrate=$(echo "($size * 8/$length)"|bc -l | xargs printf "%.2f\n")
 	   bitrate=$(echo ${bitrate%.*})
 	   temp_bitrate=bitrate
 	   file="$j/ROI1/$bitrate/enc.mp4"
@@ -32,16 +32,16 @@ for j in "${games[@]}"; do echo $j;
 				let i=i-1
 				if [ "$i" -eq 0 ]; then
 				  break
-				fi				
+				fi
 				file="$j/ROI1/$bitrate/enc.mp4"
 			done
-		fi		
+		fi
 	   ./decode_job.sh "$j/Lambda-ROI1/$bitrate/"
-	   ./vmaf_job.sh $j/raw'_'$w'_'$h.yuv "$j/Lambda-ROI1/$bitrate/" $w $h	   	  
+	   ./vmaf_job.sh $j/raw'_'$w'_'$h.yuv "$j/Lambda-ROI1/$bitrate/" $w $h
 	   ./decode_job.sh "$j/ROI1/$bitrate/"
-	   ./vmaf_job.sh $j/raw'_'$w'_'$h.yuv "$j/ROI1/$bitrate/" $w $h	   
+	   ./vmaf_job.sh $j/raw'_'$w'_'$h.yuv "$j/ROI1/$bitrate/" $w $h
 	   ./decode_job.sh "$j/Base-x2651/$bitrate/"
-	   ./vmaf_job.sh $j/raw'_'$w'_'$h.yuv "$j/Base-x2651/$bitrate/" $w $h	   
+	   ./vmaf_job.sh $j/raw'_'$w'_'$h.yuv "$j/Base-x2651/$bitrate/" $w $h
 	done
 	let idx=idx+1
 done
