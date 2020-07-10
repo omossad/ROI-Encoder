@@ -212,7 +212,7 @@ for ss=1:sequences
         xlabel(char(strcat('Bitrate ',bw)));
         ylabel('VMAF');
 
-		legend('Base','CAVE','RQ');
+		legend('Base','GT','ROI');
 
         xlim(x_lim_rate)
         ylim(y_lim_vmaf)
@@ -232,7 +232,7 @@ for ss=1:sequences
         set(gca,'xticklabel',x_axis,'xtick',x_tick)
         xlabel(char(strcat('Bitrate ',bw)));
         ylabel('PSNR (dB)');
-		legend('Base','CAVE','RQ');
+		legend('Base','GT','ROI');
         xlim(x_lim_rate)
         saveFig(f,char(strcat(base_path,'temp/PSNR',sequence)));
 
@@ -248,7 +248,7 @@ for ss=1:sequences
         ylabel('Y-PSNR Standard Deviation');
 		ytickformat('%.2f');
 		xlim(x_lim_rate)
-		legend('Base','CAVE','RQ');
+		legend('Base','GT','ROI');
         saveFig(f,char(strcat(base_path,'temp/STD-PSNR',sequence)));
 
 
@@ -272,7 +272,7 @@ for ss=1:sequences
         set(gca,'xticklabel',x_axis,'xtick',x_tick)
         xlabel(char(strcat('Bitrate ',bw)));
         ylabel('SSIM');
-		legend('Base','CAVE','RQ');
+		legend('Base','GT','ROI');
         xlim(x_lim_rate)
         ylim(y_lim_ssim(q,:))
 		yticks(min_ssim)
@@ -292,7 +292,7 @@ for ss=1:sequences
         xlabel(char(strcat('Bitrate ',bw)));
         ylabel('SSIM Standard Deviation');
 		ytickformat('%.2f');
-		legend('Base','CAVE','RQ');
+		legend('Base','GT','ROI');
         saveFig(f,char(strcat(base_path,'temp/STD-SSIM',sequence)));
 
 
@@ -451,7 +451,7 @@ for ss=1:sequences
         set(gca,'xticklabel',x_axis,'xtick',x_tick)
         xlabel(char(strcat('Bitrate ',bw)));
         ylabel('PSNR (dB)');
-        legend('Base','CAVE','RQ');
+        legend('Base','GT','ROI');
         xlim(x_lim_rate)
         saveFig(f,char(strcat(base_path,'temp/ROI-PSNR',sequence)));
 
@@ -476,7 +476,7 @@ for ss=1:sequences
         set(gca,'xticklabel',x_axis,'xtick',x_tick)
         xlabel(char(strcat('Bitrate ',bw)));
         ylabel('SSIM');
-		legend('Base','CAVE','RQ');
+		legend('Base','GT','ROI');
         xlim(x_lim_rate)
         ylim(y_lim_ssim(q,:))
 		yticks(min_ssim)
