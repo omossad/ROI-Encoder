@@ -4,7 +4,7 @@
 function evaluationsVariations
 distcomp.feature( 'LocalUseMpiexec', false )
 pc = parcluster('local');
-parpool(pc, 32)
+parpool(pc, 12)
 qp = [22 27 32 37];
 y_lim_psnr=[25 45];
 y_lim_ssim=[0.6 1;0.75 1;];
