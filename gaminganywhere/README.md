@@ -36,3 +36,12 @@ can be ported to other OS's including OS X and Android.
 		libgl1-mesa-dev libglu1-mesa-dev \
 		libpulse-dev libasound2-dev lib32z1
   ```
+
+
+  * Executing the commands
+  ```
+ga-server-periodic.exe config\server.desktop-rc.conf
+
+ga-client.exe config\client.rel-rc.conf rtsp://cs-nsl-45.cmpt.sfu.ca:8555\desktop
+
+  ```

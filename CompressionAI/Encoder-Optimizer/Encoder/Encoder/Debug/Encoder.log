@@ -1,0 +1,20 @@
+﻿  rc.cpp
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-optimizer\encoder\encoder\rc.cpp(125): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-optimizer\encoder\encoder\rc.cpp(171): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-optimizer\encoder\encoder\rc.cpp(235): warning C4101: 'tmpbuf': unreferenced local variable
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-optimizer\encoder\encoder\rc.cpp(338): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-optimizer\encoder\encoder\rc.cpp(344): warning C4244: '=': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-optimizer\encoder\encoder\rc.cpp(350): warning C4244: 'argument': conversion from 'double' to 'size_t', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-optimizer\encoder\encoder\rc.cpp(375): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-optimizer\encoder\encoder\rc.cpp(377): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-optimizer\encoder\encoder\rc.cpp(378): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-optimizer\encoder\encoder\rc.cpp(394): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-optimizer\encoder\encoder\rc.cpp(403): warning C4244: 'argument': conversion from 'float' to 'size_t', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-optimizer\encoder\encoder\rc.cpp(405): warning C4244: 'argument': conversion from 'float' to 'long', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-optimizer\encoder\encoder\rc.cpp(406): warning C4244: 'argument': conversion from 'float' to 'size_t', possible loss of data
+  Encoder.vcxproj -> C:\Users\omossad\Desktop\codes\ROI-Encoder\CompressionAI\Encoder-Optimizer\Encoder\Debug\Encoder.exe

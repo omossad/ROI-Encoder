@@ -90,3 +90,9 @@ The steps needed to evaluate CAVE in terms of overhead are:
 
 ## Miscellaneous
 The source code directory contains a folder called Unity-ROI which contains the example of the game developed in Unity to show the ability to extract ROIs from a real game engine. The code is instrumented to take a screenshot of each frame and store it besides the solution. The requirements to run this code are Unity 5.5 and Visual Studio 2017.
+
+## Steps
+Modify fps and qp in qp script (encoder/debug)
+Modify path, length , size, fps in encode.py (encoder/debug)
+Modify conf file in the video path (conf.txt) (dataset/encoding/ga__)
+ 

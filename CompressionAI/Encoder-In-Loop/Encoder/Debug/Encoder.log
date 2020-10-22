@@ -1,0 +1,45 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Encoder.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  rc.cpp
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(190): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(236): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(300): warning C4101: 'tmpbuf': unreferenced local variable
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(394): warning C4018: '<': signed/unsigned mismatch
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(395): warning C4018: '<': signed/unsigned mismatch
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(430): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(449): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(461): warning C4244: '=': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(470): warning C4244: 'argument': conversion from 'double' to 'size_t', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(510): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(512): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(513): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(531): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(532): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(533): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(534): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(561): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(567): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(574): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(596): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(598): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(600): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(630): warning C4018: '<': signed/unsigned mismatch
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(631): warning C4018: '<': signed/unsigned mismatch
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(659): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(660): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(670): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(671): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(705): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(706): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(707): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(770): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(795): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(798): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(838): warning C4244: 'argument': conversion from 'float' to 'size_t', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(840): warning C4244: 'argument': conversion from 'float' to 'long', possible loss of data
+c:\users\omossad\desktop\codes\roi-encoder\compressionai\encoder-in-loop\encoder\rc.cpp(841): warning C4244: 'argument': conversion from 'float' to 'size_t', possible loss of data
+  Encoder.vcxproj -> C:\Users\omossad\Desktop\codes\ROI-Encoder\CompressionAI\Encoder-In-Loop\Debug\Encoder-In-Loop.exe
